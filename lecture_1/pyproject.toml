@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lecture_1"
+version = "0.1.0"
+description = "Innowise Lecture 1"
+authors = [{ name = "Andrei Ishchanka" }]
+dependencies = [
+    "colorama==0.4.6"
+]
